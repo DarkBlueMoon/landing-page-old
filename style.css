@@ -78,7 +78,7 @@ ul {
   align-items: center;
 }
 
-.signup-btn {
+button {
   color: #f9faf8;
   background: #3882f6;
   padding: 5px 25px;
@@ -145,4 +145,37 @@ ul {
   /* align-self: flex-end; */
   padding-left: 550px;
   font-weight: bold;
+}
+
+/* ---------- CALL TO ACTION STYLING ---------- */
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 250px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.cta {
+  background: #3882f6;
+  border: 1px solid #3882f6;
+  border-radius: 5px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.primary-text {
+  font-weight: bold;
+}
+
+.secondary-text {
+  font-weight: 300;
+}
+
+.cta-button button {
+  border: 1px solid #f9faf8;
 }
