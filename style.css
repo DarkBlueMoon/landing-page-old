@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -82,4 +83,35 @@ ul {
   background: #3882f6;
   padding: 5px 25px;
   margin-top: 10px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+/* ---------- PROMO IMAGES STYLING ---------- */
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.item-img {
+  width: 150px;
+  height: 150px;
+  border: solid #3882f6 3px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.item {
+  max-width: 150px;
+  text-align: center;
+}
+
+.promo-text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  padding: 36px 0;
 }
