@@ -8,19 +8,13 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  /* flex: 1 50%; */
-}
-
 /* ---------- HEADER STYLING ---------- */
 
 header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 12px;
+  padding: 12px 0px;
   background: #1f2937;
 }
 
@@ -49,9 +43,10 @@ ul {
 .hero {
   background: #1f2937;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  padding: 70px 40px;
+  gap: 60px;
+  height: 400px;
 }
 
 .hero-text {
@@ -70,8 +65,9 @@ ul {
 }
 
 .image-placeholder {
-  background: #e5e7eb;
-  width: 400px;
+  background: #686969;
+  color: #f9faf8;
+  width: 450px;
   height: 200px;
   display: flex;
   justify-content: center;
@@ -90,7 +86,7 @@ button {
 /* ---------- PROMO IMAGES STYLING ---------- */
 
 .promo-images {
-  padding-bottom: 70px;
+  height: 400px;
 }
 
 .items {
@@ -123,18 +119,21 @@ button {
 /* ---------- TESTIMONIALS STYLING ---------- */
 
 .testimonials {
-  /* padding-bottom: 70px; */
   background: #e5e7eb;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 300px;
+  height: 400px;
+}
+
+.testimonial-wrapper {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
 }
 
 .testimonial {
-  /* padding: 70px; */
-  width: 50%;
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
@@ -142,12 +141,12 @@ button {
 }
 
 .author {
-  /* align-self: flex-end; */
-  padding-left: 550px;
+  align-self: flex-end;
   font-weight: bold;
 }
 
 /* ---------- CALL TO ACTION STYLING ---------- */
+
 .call-to-action {
   display: flex;
   flex-direction: column;
@@ -178,4 +177,15 @@ button {
 
 .cta-button button {
   border: 1px solid #f9faf8;
+}
+
+/* ---------- FOOTER STYLING ---------- */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1f2937;
+  color: #f9faf8;
+  height: 100px;
 }
